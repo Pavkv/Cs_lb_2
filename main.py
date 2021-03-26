@@ -144,5 +144,5 @@ for i in range(len(output)):
         end += f'{c}+'
     else:
         end += c
-print(*[' '.join(map(str,e)) for e in m], sep='\n')
+# print(*[' '.join(map(str,e)) for e in m], sep='\n')
 print(end)
